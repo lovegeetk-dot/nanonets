@@ -68,15 +68,15 @@ The extracted information is shown in a clean tabular format.
 
 # Screenshots
 
-## Invoice Number Extraction
+## GitHub Repository View
 
-![Invoice Number Extraction](screenshots/invoice-number.png)
+![GitHub Repository Screenshot](nanonets-ss.png)
 
 ---
 
-## Payment and Business Service Extraction
+## Invoice Number Extraction
 
-![Business Service Extraction](screenshots/business-service.png)
+![Invoice Number Extraction](nanaonets-ss.png)
 
 ---
 
@@ -112,3 +112,5 @@ The extracted information is shown in a clean tabular format.
 # Conclusion
 
 This project showcases how Nanonets AI Agents can simplify invoice document processing through intelligent data extraction and conversational querying. The system successfully extracts important invoice details with minimal manual effort, demonstrating the practical application of AI in financial document automation.
+
+This project is created for educational and learning purposes to demonstrate AI-powered invoice automation and visualization.
