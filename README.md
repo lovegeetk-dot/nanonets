@@ -1,117 +1,114 @@
-# nanonets
-NanoSet/
-│
-├── frontend/
-├── backend/
-├── database/
-├── models/
-├── static/
-├── templates/
-└── README.md
+# Nanonets Invoice Information Extraction Agent
 
-## 📸 Screenshots
+## Overview
+This project demonstrates the use of a Nanonets AI Agent to extract structured information from an invoice PDF through natural language queries. The agent processes the uploaded invoice document and returns specific details such as invoice number, payment status, amount paid, and business services mentioned in the invoice.
 
-### 1. Google Form Interface
-[Google Form](invoice.png)
-
-# 🛠 Technologies Used
-
-- Nanonets AI Agent
-- HTML
-- Invoice PDF Processing
-- Bar Chart Visualization
+The workflow highlights how AI-powered document automation can reduce manual effort in extracting important financial information from invoices.
 
 ---
 
-# 📂 Project Files
+# Features
 
-| File Name | Description |
-|------------|-------------|
-| `INVOICE.pdf` | Sample invoice used for processing |
-| `invoice_bar_chart.html` | Generated HTML report with bar chart visualization |
-| `project_screenshot.png` | Screenshot showing workflow and generated output |
-
----
-
-# 📄 Invoice Information Extracted
-
-The AI agent extracted the following information from the invoice:
-
-- Invoice Number: **INV-2026-101**
-- Vendor: **Global Finance Consulting Pvt. Ltd.**
-- Client: **XYZ Capital Advisors Ltd.**
-- Total Amount: **₹70,800**
-- GST: **18%**
-- Payment Status: **Unpaid**
+- Extract invoice number from uploaded PDF
+- Identify payment status and amount paid
+- Extract business service details from invoice items
+- Natural language interaction with invoice documents
+- Automated structured data extraction
 
 ---
 
-# 📊 Service Line Items
+# Technologies Used
 
-| Service | Amount |
-|----------|---------|
-| Financial Modeling Service | ₹20,000 |
-| Risk Analysis Consulting | ₹25,000 |
-| AI in Finance Strategy Session | ₹15,000 |
-
----
-
-# 📈 Generated Visualization
-
-The system generates an HTML bar chart representing invoice line item totals.
-
-### Features:
-- Interactive visual representation
-- Service-wise comparison
-- Easy-to-understand expense breakdown
+- Nanonets AI Agents
+- OCR-based document processing
+- PDF document understanding
+- Natural Language Querying
 
 ---
 
-# 🚀 How to Run the Project
+# Project Workflow
 
-## Step 1: Upload Invoice
-Upload the invoice PDF into the Nanonets AI Agent workflow.
+## Step 1: Upload Invoice PDF
+The invoice PDF is uploaded into the Nanonets AI Agent interface.
 
-## Step 2: Process Invoice
-The AI agent extracts invoice details automatically.
+## Step 2: Ask Questions in Natural Language
+The agent is queried using simple prompts such as:
 
-## Step 3: Generate Visualization
+- "What is the invoice number?"
+- "How much payment has already been made?"
+- "What type of business service is mentioned?"
 
-Use the following prompt:
+## Step 3: AI-Based Information Extraction
+The AI agent analyzes the invoice and extracts relevant structured information.
 
-```bash
-make bar chart
-Step 4: View Output
-The system generates:
+## Step 4: Display Extracted Results
+The extracted information is shown in a clean tabular format.
 
-invoice_bar_chart.html
-Open the HTML file in any browser to view the chart.
+---
 
-📸 Project Output
-Add your screenshot like this:
+# Extracted Information
 
-![invoice](invoice.png)
-🎯 Learning Outcomes
-Through this project, I learned:
+## Invoice Details
 
-AI-based invoice automation
-Document data extraction
-HTML report generation
-Data visualization using bar charts
-Working with Nanonets AI Agents
-📌 Future Improvements
-Add pie chart visualizations
-Export reports as PDF
-Automate email notifications
-Store invoice data in a database
-Create dashboard analytics
-👩‍💻 Author
-Lovegeet
+| Field | Extracted Value |
+|---|---|
+| Invoice Number | INV-2026-101 |
+| Amount Paid | 0 |
+| Payment Status | Unpaid |
 
-⭐ GitHub Upload Steps
-git init
-git add .
-git commit -m "Added Invoice Processing Automation Project"
-git branch -M main
-git remote add origin YOUR_REPOSITORY_LINK
-git push -u origin main
+---
+
+## Business Services Identified
+
+- Financial Modeling Service
+- Risk Analysis Consulting
+- AI in Finance Strategy Session
+
+---
+
+# Screenshots
+
+## Invoice Number Extraction
+
+![Invoice Number Extraction](screenshots/invoice-number.png)
+
+---
+
+## Payment and Business Service Extraction
+
+![Business Service Extraction](screenshots/business-service.png)
+
+---
+
+# Key Learnings
+
+- AI agents can automate repetitive invoice processing tasks.
+- Natural language prompts make document querying simple and user-friendly.
+- OCR and AI together help convert unstructured PDFs into structured data.
+- Automated extraction improves efficiency and reduces human error.
+
+---
+
+# Future Improvements
+
+- Multi-invoice batch processing
+- Export extracted data to Excel or CSV
+- Integration with accounting systems
+- Real-time invoice analytics dashboard
+- Validation for duplicate invoices
+
+---
+
+# Use Cases
+
+- Finance and accounting automation
+- Invoice auditing
+- Vendor payment tracking
+- Business expense management
+- Enterprise document processing
+
+---
+
+# Conclusion
+
+This project showcases how Nanonets AI Agents can simplify invoice document processing through intelligent data extraction and conversational querying. The system successfully extracts important invoice details with minimal manual effort, demonstrating the practical application of AI in financial document automation.
