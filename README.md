@@ -68,12 +68,6 @@ The extracted information is shown in a clean tabular format.
 
 # Screenshots
 
-## GitHub Repository View
-
-<img width="1400" alt="GitHub Repository Screenshot" src="nanonets-ss.png">
-
----
-
 ## README Preview with Extracted Information
 
 <img width="1400" alt="README Preview" src="nanaonets ss.png">
