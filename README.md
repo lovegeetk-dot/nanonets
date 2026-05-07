@@ -70,13 +70,13 @@ The extracted information is shown in a clean tabular format.
 
 ## GitHub Repository View
 
-![GitHub Repository Screenshot](nanonets-ss.png)
+<img width="1400" alt="GitHub Repository Screenshot" src="nanonets-ss.png">
 
 ---
 
-## Invoice Number Extraction
+## README Preview with Extracted Information
 
-![Invoice Number Extraction](nanaonets-ss.png)
+<img width="1400" alt="README Preview" src="nanaonets ss.png">
 
 ---
 
